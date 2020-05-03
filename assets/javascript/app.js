@@ -10,11 +10,11 @@ var _app = function () {
     this.effects = ["bounce", "flash", "pulse", "rubberBand", "shake", "swing", "tada", "wobble", "jello"];
     this.brandDescription = [
         "What's up Homie", 
-        "Pro Call Of Duty Player", 
-        "Hardcore DDoser", 
+        "Pro Rainbow Six Player", 
+        "Hardcore Doxxer", 
         "Python developer", 
         ".Net Developer", 
-        "A Psycho BlackHat Hacker"
+        "Rich Snob"
     ];
 
     this.iconChanger = function (urls, delay) {

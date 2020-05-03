@@ -13,29 +13,23 @@
     $(document).ready(function () {
         var links = [
             {
-
-				name: 'Facebook',
-                link: 'https://www.facebook.com/youneedavirus'
-            },
-                
-            {
                 name: 'Youtube',
-                link: 'https://www.youtube.com/channel/UCRgV43J1ceD_SA09OygxC1Q'
+                link: 'https://www.youtube.com/channel/UC9uI_iqx-z7_h09lbUKL09g'
             },
                 
             {
                 name: 'Github',
-                link: 'https://github.com/mafiamasterhere'
+                link: 'https://github.com/GameHQ702'
             },
 
             {
-                name: 'Blog',
-                link: 'https://mafiamasterhere.blogspot.com/'
+                name: 'Donation',
+                link: './assets/donation'
             },
 			
 			{
                 name: 'Shop',
-                link: 'https://sellix.io/MafiaMasterHere'
+                link: 'https://sellix.io/GameHQ'
             }
         ];
          
@@ -146,7 +140,7 @@
     (function () {
         $.getJSON('https://api.ipgeolocation.io/ipgeo?apiKey=bc46132fb5914b928799bfe862a1258d', function (data) {
 
-            writeLine(["Authenticating...", "Granting access to <span style='font-size: 14px; color: #06d;'>[unknown]</span>..."], 30, function () {
+            writeLine(["Authenticating...", "Granting access to <span style='font-size: 14px; color: #06d;'>[server]</span>..."], 30, function () {
 
                 if (app.skippedIntro)
                 	return;
@@ -163,7 +157,7 @@
 
                     clearCursor();
 
-                    writeLine(["<i style='color: #F62459'>Dʌɗ Oʆ Dɘvɩɭ#2144/Discord</i>"], 120, 500, function () {
+                    writeLine(["<i style='color: #F62459'>GameHQ | Max#0001/Discord</i>"], 120, 500, function () {
 
                         timeouts.push(setTimeout(function () {
 
